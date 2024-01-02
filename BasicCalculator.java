@@ -23,6 +23,7 @@ public class BasicCalculator extends JFrame implements ActionListener{
 	}
 
 	private void initialize(){
+		setTitle("BasicCalculator");
 		this.setSize(new Dimension(300, 420));
 		this.setLayout(null);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
